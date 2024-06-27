@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onfocus</title>
+</head>
+<body>
+    <input type="text" id="one" onfocus="Onfocus()" onblur="Onblur()">
+    <script>
+        function Onfocus(){
+            document.getElementById("one").style.backgroundColor="red";
+        }
+        function Onblur(){
+            document.getElementById("one").style.backgroundColor="blue";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onkeydown</title>
+</head>
+<body>
+    <input type="text" id="one" onkeydown="Keydown()" onkeyup="Keyup">
+    <script>
+        function Keydown(){
+            document.getElementById("one").style.backgroundColor="red";
+        }
+        function Keyup(){
+            document.getElementById("one").style.backgroundColor="pink";
+        }
+    </script>
+</body>
+</html>
